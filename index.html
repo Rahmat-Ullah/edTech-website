@@ -246,7 +246,34 @@
                         <p class="card-text text-white">If you find anything good for your learning you can join us by clicking
                             register now.</p>
                     </div>
-                    <div class="mt-2"><a class="btn btn-light text-primary fs-5 fw-bold px-4 py-2" href="">Register Now</a>
+                    <div class="mt-2"><a class="btn btn-light text-primary fs-5 fw-bold px-4 py-2" data-bs-toggle="modal" data-bs-target="#registration" href="">Register Now</a>
+                    </div>
+                </div>
+                <div class="modal" id="registration">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Please Complete Registration</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        <div id="emailHelp" class="form-text"></div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
